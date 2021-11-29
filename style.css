@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face{
+    font-family:"Easy-Font";
+    src:url("fonts/Bellerose.ttf");
+}
+
+
+
+body{
+    display: flex;
+    justify-content: center;
+    font-family: "Raleway";
+}
+
+.wrapper{
+    width: 1170px;
+}
+
+
+
+
+/* ------------- header design ----------- */
+.header{
+    display: flex;
+}
+.header .logo{}
+.header .logo a{}
+.header .logo a img{}
+
+.header .menu{
+    width: 100%;
+}
+.header .menu ul{
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    
+}
+.header .menu ul li{}
+.header .menu ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 15px 25px; 
+    display: block;
+}
+
+.header .menu ul li a:hover{
+    background: black;
+    color: white;
+}
+
+.header .menu ul li a i{
+    margin-right: 5px;
+}
+
+
+/* ------------- banner design ----------- */
+.banner{
+    margin-bottom: 80px;
+}
+.banner img{
+    width: 100%;
+    height:auto;
+}
+
+/* ------------- blog design ----------- */
+.blog{
+    padding-bottom: 70px;
+}
+.blog .heading{}
+.blog .heading h1{
+    font-family:"Easy-Font";
+    letter-spacing: 5px;
+    text-align: center;
+    color: orange;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+}
+.blog .all-blog-post{
+    display: flex;
+    flex-wrap: wrap;
+}
+.blog .all-blog-post .single-blog-post{
+    width: 370px;
+    padding: 0px 10px;
+    font-family: 'Raleway', sans-serif;
+    transition:1s;
+    
+    
+}
+.blog .all-blog-post .single-blog-post:hover{
+    /* transform: translate(10px); */
+    /* transform: skew(10deg); */
+    /* transform:scale(1.5) ; */
+    /* transform: rotate(720deg); */
+    transform: rotate(360deg) scale(0);
+}
+.blog .all-blog-post .single-blog-post img{
+    max-width: 100%;
+    height:auto;
+    
+}
+.blog .all-blog-post .single-blog-post h1{
+    padding: 5px 0px;
+    color: rgb(71, 71, 71);
+}
+.blog .all-blog-post .single-blog-post h5{
+    color: gray;
+}
+.blog .all-blog-post .single-blog-post p{
+    text-align:justify;
+    font-size: 17px;
+    padding-top: 16px;
+    padding-bottom: 20px;
+}
+.blog .all-blog-post .single-blog-post a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    background: black;
+    
+
+}
+.blog .all-blog-post .single-blog-post a i{
+    margin-left: 5px;
+    transition: .6s;
+}
+
+.blog .all-blog-post .single-blog-post a:hover i{
+    padding-left: 30px;
+}
